@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search {
+	width:100%;
+	height:150px;
+}
+
+.wrp {
+	background-color:#dedede;
+	float:left;
+	width:100%;
+}
+
+.box {
+	min-height:30px;
+	width:100%
+	float:left;
+
+	padding-left:5px;
+	text-align:left;
+	font-size:24px;
+	font-weight:bold;
+	color:#FFF;
+	letter-spacing:1px;
+}
+
+.box2 {
+	min-height:10px;
+	width:420px;
+	padding:15px;
+	padding-left:5px;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	margin: 0 auto;
+}
+
+.search_inner {
+	min-height:100px;
+	width:100%;
+}
+
+.search_outer {
+	background-color:#27b8d1;
+	width:95%;
+	padding:2.5%;
+	float:left;
+	-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+margin-bottom:0px;
+}
+#btn {
+	border: solid 1.5px #FFF;
+  
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    letter-spacing: .03em;
+    line-height: 1.25em;
+	margin-top:30px;
+    height: 50px;
+    overflow: hidden;
+    padding: 2px 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+	background-color:transparent;
+	transition: background-color 0.2s ease;
+}
+
+#btn:hover {
+  color:#27b8d1;
+  background-color:#FFF;
+
+}
+
+/* insert comment */
+.box_comment {
+	width:80%;
+	min-height:350px;
+	transition: background-color 0.5s ease;
+	padding:2.5%;
+	margin-left:7.5%;
+	margin-right:7.5%;
+	border-bottom: solid 1.5px #FFF;
+}
+
+.text_comment {
+	width:95%;
+	min-height:100px;
+	transition: background-color 0.5s ease;
+	float:left;
+			-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+margin-bottom:40px;
+padding:2.5%;
+}
+
+input[type="text"] {
+	line-height:30px;
+	border: 2px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 24px;
+	height: 80px;
+	line-height: 30px;
+	outline: medium none;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.event {
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #dedede;
+    padding: 50px;
+}
+
+.content {
+    min-height: 275px;
+    width: 856px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 25px;
+    -webkit-box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+	background-color: #dedede;
+	padding-bottom:70px;
+		    -moz-background-image: linear-gradient(120deg, #4dac71 50%, #3ba666 50%);
+    -webkit-background-image: linear-gradient(120deg, #4dac71 50%, #3ba666 50%);
+    -o-background-image: linear-gradient(120deg, #4dac71 50%, #3ba666 50%);
+    -ms-background-image: linear-gradient(120deg, #4dac71 50%, #3ba666 50%);
+    background-image: linear-gradient(120deg, #4dac71 50%, #3ba666 50%);
+	color:#FFF;
+}
+
+.padding {
+	padding:50px;
+	background-color:#dedede;
+}
+
+#btn2 {
+	border: solid 1.5px #333;
+  
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    letter-spacing: .03em;
+    line-height: 1.25em;
+	margin-top:0px;
+    height: 50px;
+    overflow: hidden;
+    padding: 2px 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+	background-color:#333;
+	transition: background-color 0.2s ease;
+}
+
+#btn2:hover {
+  color:#27b8d1;
+  background-color:#FFF;
+  border: solid 1.5px #FFF;
+
+}
+
+.spaced {
+	margin-right:30px;
+	float:left;
+	margin:10px;
+}
+
+.spacedb {
+	margin-right:30px;
+	float:left;
+}
+
+.sql_error_text {
+    min-height: 30px;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: #FFF;
+    text-align: center;
+}
+
+.tp {
+	margin-top:20px;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    font-size: 0.80em;
+}
+
+/* general button */
+#button2,
+button2 {
+	border: solid 1.5px #FFF;
+    border-radius: 256px;
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    letter-spacing: .03em;
+    line-height: 1.25em;
+    margin: 20px auto;
+    max-width: 320px;
+    height: 41px;
+    overflow: hidden;
+    padding: 2px 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+	background-color:transparent;
+	margin:0 auto;
+	margin-top:20px;
+	transition: background-color 0.2s ease;
+
+}
+
+#button2:hover,
+button:hover {
+	background-color:#FFF;
+	color:#27b8d1;
+}

@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#464545;
+	
+	top: 0;
+	left: 0;
+	/* Preserve aspet ratio */
+	
+	
+	padding:0px;
+	margin:0px;
+	
+		background-image:url(../Images/Website/Register_process/icelands_ring_road.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+#btn {
+	border: solid 1.5px #FFF;
+  
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    letter-spacing: .03em;
+    line-height: 1.25em;
+	margin-top:30px;
+    height: 50px;
+    overflow: hidden;
+    padding: 2px 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+	background-color:transparent;
+	transition: background-color 0.2s ease;
+}
+
+#btn:hover {
+  color:#27b8d1;
+  background-color:#FFF;
+
+}
+
+.navigation {
+	height:150px;
+	width:1040px;
+	margin:0 auto;
+}
+
+.menu2 {
+	display:block;
+	height:50px;
+	padding: 50px 25px 50px 25px;
+	text-decoration:none;
+	text-align: center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	max-width:200px;
+	float:right;
+	color:#FFF;
+	transition: background-color 0.2s ease;
+}
+.menu2:hover {
+	background-color:#27b8d1;
+}
+
+.logo {
+	height:80px;
+	width:268px;
+	background-image:url(../Images/Website/User%20accounts/logo.png);
+	float:left;
+	margin-top:12px;
+}
+
+.image_register_process {
+	width:100%;
+	min-height:200vh;
+	margin:0 auto;
+	float:left;
+}
+
+.search {
+	width:100%;
+	height:150px;
+	margin-top:280px;
+}
+
+.box {
+	min-height:30px;
+	width:100%
+	float:left;
+
+	padding-left:5px;
+	text-align:left;
+	font-size:24px;
+	font-weight:bold;
+	color:#FFF;
+	letter-spacing:1px;
+}
+
+.box2 {
+	min-height:10px;
+	width:420px;
+	padding:15px;
+	padding-left:5px;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	margin: 0 auto;
+}
+
+.search_inner {
+	margin:0 auto;
+	min-height:100px;
+	width:550px;
+}
+
+.search_outer {
+	background-color:#27b8d1;
+	width:475px;
+	padding:50px;
+	float:left;
+	-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+margin-bottom:100px;
+}
+
+.bs-example {
+	width:100%;
+	float:left;
+	min-height:140px;
+	
+}
+
+/* CSS Document */
+.portfolio_reg{
+	width:100%;
+	min-height:300px;
+	float:left;
+	background-image:url(../Images/Website/Register_process/bg.png);
+	background-size:100% 100%;
+	margin-top:100px;
+}
+
+.portfoliobox_reg,
+.portfoliobox2_reg {
+	width:25%;
+	min-height:220px;
+	float:left;
+	transition: background-color 0.2s ease;
+}
+
+.portfoliobox2_reg {
+}
+
+.portfoliobox_reg:hover,
+.portfoliobox2_reg:hover {
+	background-color:#27b8d1;
+}
+
+.portfoliotext_reg,
+ portfoliotext_reg2{
+	width:80%;
+	height:40px;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:5%;
+	color:#FFF;
+	font-size:20px;
+	font-family:'myFirstFont', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	transition: background-color 0.5s ease;
+
+}
+
+.portfoliotext_reg2{	
+	width:80%;
+	height:40px;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:5%;
+	color:#FFF;
+	font-size:20px;
+	font-family:'myFirstFont', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	transition: background-color 0.5s ease;
+}
+
+.portfoliotext_reg2:hover {
+	background-image:none;
+	background-color:#FFF;
+	color:#27b8d1;
+}
+
+.portfolioimg_reg {
+	width:90%;
+	margin:auto;
+	height:100%;
+	padding:5%;
+	padding-bottom:0%;
+}
+
+.content{
+	width:100%;
+	min-height:300px;
+	float:left;
+	margin-top:100px;
+}
+
+.content_inner {
+	width:33.3%;
+	height:220px;
+	min-height:220px;
+	float:left;
+	padding-top:30px;
+	transition: background-color 0.2s ease;
+	padding-bottom:200px;
+}
+
+.content_text {
+	width:80%;
+	height:65px;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:5%;
+	color:#FFF;
+	font-size:24px;
+	font-family:'myFirstFont', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	background-color:#27b8d1;
+	transition: background-color 0.5s ease;
+	text-align:center;
+		-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+.wrap {
+	background-image:url(../Images/Website/Register_process/bg_60.png);
+	width:90%;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin: 0 auto;
+}

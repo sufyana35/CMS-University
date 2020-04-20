@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.details {
+	width:90%;
+	min-height:50px;
+	margin:auto;
+	padding:5%;
+	color:#FFF;
+	font-size:24px;
+	font-family:'myFirstFont', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+.image_box {
+	float:left;
+	height:50px;
+	width:50px;
+	margin-right:10px;
+	background-color:#27b8d1;
+}
+
+.details_text {
+	width:100%;
+	min-height:50px;
+	float:left;
+	font-size:10px;
+}
+

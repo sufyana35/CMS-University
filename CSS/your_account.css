@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#464545;
+	
+	top: 0;
+	left: 0;
+	/* Preserve aspet ratio */
+	
+	
+	padding:0px;
+	margin:0px;
+}
+
+.account {
+	min-height:400px;
+	margin:0 auto;
+	background-color:#dedede;
+	padding:50px;
+}
+
+.title2 {
+	height:60px;
+	min-width:100px;
+	margin:0 auto;
+	padding-left:50px;
+	padding-right:50px;
+	font-size:25px;
+	font-weight:bolder;
+	color:#27b8d1;
+	text-align:left;
+}
+
+.title3 {
+	height:60px;
+	min-width:100px;
+	margin:0 auto;
+	padding-left:50px;
+	padding-right:50px;
+	font-size:25px;
+	font-weight:bolder;
+	color:#FFF;
+	text-align:left;
+}
+
+.account_admin {
+	min-height:800px;
+	margin:0 auto;
+	background-color:#27b8d1;
+	padding:50px;
+		    -moz-background-image: linear-gradient(60deg, #27b8d1 50%, #30adc2 50%);
+    -webkit-background-image: linear-gradient(60deg, #27b8d1 50%, #30adc2 50%);
+    -o-background-image: linear-gradient(60deg, #27b8d1 50%, #30adc2 50%);
+    -ms-background-image: linear-gradient(60deg, #27b8d1 50%, #30adc2 50%);
+    background-image: linear-gradient(60deg, #27b8d1 50%, #30adc2 50%);
+}
+
+.account_content {
+	min-height:400px;
+	margin:0 auto;
+	width:80%;
+}
+
+.socialbox {
+	width:170px;
+	height:270px;
+	float:left;
+	margin:10px 10px 50px 10px;
+	padding:20px;
+	background-color:#333;
+	-webkit-box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 11px 42px -15px rgba(0,0,0,0.75);
+}
+
+.socialbox:hover {
+	background-image:url(../Images/Website/Your%20account/reflect.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.socialimage {
+	width:100%;
+	height:100%
+}
